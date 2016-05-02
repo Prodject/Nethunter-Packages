@@ -1,0 +1,18 @@
+#!/bin/bash
+# AUTOSCRIPT TO UPLOAD FILES
+
+# SETTING
+# USE FOR SAVE ACCOUNT
+#git config credential.helper store
+
+# SETTING'S PATH
+
+PROJECT_NAME="Nethunter-Packages"
+
+
+# SCRIPT
+
+#CD .
+git add *
+git commit -m "$PROJECT_NAME"
+git push "$PROJECT_NAME" master
